@@ -90,6 +90,7 @@ export class practicePage {
     }
 
     handleIframe(){
+        //3rd Party library "cypress-iframe" is used to interact with Iframe in the application under test
         cy.frameLoaded(this.webLocators.iframe)
         cy.iframe().find(this.webLocators.iframeItem).should('be.visible')
     }
