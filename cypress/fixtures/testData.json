@@ -1,0 +1,10 @@
+{
+    "dropdownValue" : "Option2",
+    "alertTextPath" : "cypress/resources/alert-text.txt",
+    "imagePath" : "cypress/resources/sampleImage.png",
+    "alertStrFirstPart" : "Hello ",
+    "alertStrSecondPart" : ", share this practice page and share your knowledge",
+    "confirmStrFirstPart" : "Hello ",
+    "confirmStrSecondPart" : ", Are you sure you want to confirm?",
+    "redirectedURL" : "https://easygenerator.com"
+}

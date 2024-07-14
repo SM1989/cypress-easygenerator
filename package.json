@@ -1,0 +1,25 @@
+{
+  "name": "cypress-easygenerator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "task-scripts-headless": "npx cypress run --headless --spec cypress/e2e/tests/practiceTest.cy.js --config-file cypress.config.js",
+    "task-scripts-headed": "npx cypress run --headed --spec cypress/e2e/tests/practiceTest.cy.js --config-file cypress.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/SM1989/cypress-easygenerator.git)"
+  },
+  "author": "Saurabh Mukherjee",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.13.0",
+    "cypress-iframe": "^1.0.1",
+    "cypress-mochawesome-reporter": "^3.8.2"
+  },
+  "dependencies": {
+    "prettier": "^3.3.2"
+  }
+}
