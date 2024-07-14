@@ -9,7 +9,7 @@ module.exports = defineConfig({
   e2e: {
     experimentalSessionAndOrigin: true,
     setupNodeEvents(on, config) {
-      require('cypress-mochawesome-reporter/plugin')(on);
+      require('cypress-mochawesome-reporter/plugin')(on)
       on('task', {
         readFileWhichMayExist(filename) {
           if (fs.existsSync(filename)) {
@@ -21,8 +21,8 @@ module.exports = defineConfig({
       })
     },
   },
-  env : {
-    URL : './cypress/resources/task.html'
+  env: {
+    URL: './cypress/resources/task.html',
   },
-  chromeWebSecurity: false
+  chromeWebSecurity: false,
 })
